@@ -729,7 +729,7 @@ export default function Home() {
 
 
       {/* footer  */}
-      <div className='bg-sky-200 border-t-8 border-dotted border-white relative w-full h-screen'>
+      <div className='bg-white border-t-8 border-dotted border-white relative w-full h-screen'>
 
         <div className="">
           <div>
@@ -878,13 +878,13 @@ export default function Home() {
 
               <div className='flex justify-center items-center relative'>
                 <div>
-                  <h1 className='absolute top-20 sm:top-24 md:top-20 lg:top-36 client-text text-2xl md:text-3xl lg:text-4xl'>Auf ins <br /> Abenteuer!</h1>
+                  <h1 className='absolute top-20 sm:top-24 md:top-20 lg:top-36 footer-text text-2xl md:text-3xl lg:text-4xl'>Auf ins <br /> Abenteuer!</h1>
                   <img src={photo10} className='w-96 lg:w-[600px]' />
                 </div>
               </div>
 
               <div>
-                <h1 className='client-text text-4xl text-center'>Contact</h1>
+                <h1 className='footer-text text-4xl text-center'>Contact</h1>
 
                 <div className='flex justify-center pt-5 items-center space-x-4'>
                   <h1 className='text-xl text-blue-500 flex justify-center items-center gap-2'><FaEnvelope className='text-blue-500 w-10 h-10' /> info@buzibu.de</h1>

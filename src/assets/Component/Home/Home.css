@@ -216,3 +216,15 @@ h1:hover {
   animation: gradientMove 1s infinite linear;
 }
 
+
+
+.footer-text {
+  font-family: 'Fredoka One', cursive;
+  color: #5c95ff; /* Warm, friendly color */
+  text-shadow:  
+               3px 3px 0px #ffffff, 
+               4px 4px 0px #0486b9; /* 3D Cartoon Effect */
+  letter-spacing: 2px;
+  letter-spacing: 5px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+}
