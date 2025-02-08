@@ -20,7 +20,8 @@
 
 body{
   font-family: 'Fredoka One', cursive;
-  width: 100%;
+  overflow-x: hidden;
+
 }
 
 
@@ -41,12 +42,10 @@ body{
 
 body{
   font-family: 'Fredoka One', cursive;
-  width: 100%;
+  /* width: 100%; */
 }
 
-.bgSize {
-  width: 100%;
-}
+
 
 .star {
   width: 100px;
