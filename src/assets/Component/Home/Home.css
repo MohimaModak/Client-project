@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Bubblegum+Sans&family=Chewy&display=swap');
+
+.childish-text {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem; /* Big & Fun */
+  color: #242323; /* Warm, friendly color */
+  text-shadow: 3px 3px 0px #bec6ec, 
+               6px 6px 0px #ffffff, 
+               9px 9px 0px #7dd2f3; /* 3D Cartoon Effect */
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+}
+
+/* Funny Wiggle Effect */
+@keyframes wiggle {
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+body{
+  font-family: 'Fredoka One', cursive;
+  width: 100%;
+}
+
+
+.contact-text {
+  font-family: 'Fredoka One', cursive;
+  color: #71cf05; /* Warm, friendly color */
+  text-shadow: 3px 3px 0px #ffffff, 
+               4px 5px 0px #87bd0b; /* 3D Cartoon Effect */
+  letter-spacing: 5px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+}
+
+/* Funny Wiggle Effect */
+@keyframes wiggle {
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+body{
+  font-family: 'Fredoka One', cursive;
+  width: 100%;
+}
+
+.bgSize {
+  width: 100%;
+}
+
+.star {
+  width: 100px;
+  /* Adjust size */
+  height: 100px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%,
+      68% 57%, 79% 91%, 50% 70%,
+      21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes rotateYAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.orbit {
+  animation: rotateYAnimation 5s linear infinite;
+  transition: transform 1s ease-in-out;
+}
+
+
+.cloud {
+  animation: floatClouds 5s infinite ease-in-out alternate;
+}
+
+/* Floating Animation */
+@keyframes floatClouds {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
+.cloud::before{
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  width: 100px;
+  height: 90px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+
+.cloud::after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  width: 30px;
+  height: 25px;
+  background-color: white;
+    border-radius: 10000px;
+}
+
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+
+.border-text {
+  font-family: 'Fredoka One', cursive;
+  color: #5575df; /* Warm, friendly color */
+  text-shadow: 3px 3px 0px #bec6ec, 
+               6px 6px 0px #ffffff, 
+               9px 9px 0px #7dd2f3; /* 3D Cartoon Effect */
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+}
+
+
+.client-text {
+  font-family: 'Fredoka One', cursive;
+  color: #5c95ff; /* Warm, friendly color */
+  text-shadow: 3px 3px 0px #bdc8ff, 
+               6px 6px 0px #ffffff, 
+               9px 9px 0px #07a9e9; /* 3D Cartoon Effect */
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+}
+
+
+
+
+h1 {
+  transition: 20s ;
+}
+
+h1:hover {
+  transform: rotate(385deg) rotate(385deg);
+}
+
+@keyframes rotateYAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.orbit {
+  animation: rotateYAnimation 5s linear infinite;
+  transition: transform 1s ease-in-out;
+}
+
+.Science{
+  font-family: 'Fredoka One', cursive;
+  color: #5d92f3; /* Warm, friendly color */
+  text-shadow:  
+               3px 3px 0px #ffffff, 
+               4px 4px 0px #052272; /* 3D Cartoon Effect */
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  animation: wiggle 1s infinite ease-in-out alternate;
+  letter-spacing: 10px;
+}
+
+.glow-box {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, #ffc7c9, #fad0c4);
+  filter: blur(10px);
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px rgba(255, 154, 158, 0.7);
+}
+
+
+@keyframes gradientMove {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.animate-gradientMove {
+  background-size: 200% 200%;
+  animation: gradientMove 1s infinite linear;
+}
+
